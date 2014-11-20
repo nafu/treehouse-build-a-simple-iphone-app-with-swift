@@ -22,3 +22,6 @@ fruitsArray
 var optionalString: String? = "hello"
 optionalString!
 optionalString = nil
+
+// Random Number Generation
+var randomNumber = Int(arc4random_uniform(10))
